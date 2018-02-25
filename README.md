@@ -2,7 +2,9 @@
 ===========
 
 MIRO code to model Faraday Rotation in simulated clusters/filaments
+
 ;....basic IDL(v8.6.0) version of MIRO for simple simulations of Farday Rotation Measure 
+
 ;...derived from Bonafede, Vazza et al. 2013 MNRAS
 
 
@@ -18,7 +20,9 @@ MIRO code to model Faraday Rotation in simulated clusters/filaments
 Compilation:
 ============
 .r needs
+
 .r needs
+
 .r createB_3d
 
 
