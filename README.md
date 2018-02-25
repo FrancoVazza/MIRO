@@ -48,6 +48,7 @@ Compilation:
   - nclump=0  ;..number of clumps (randomly distributed
    - rc_fila=0  ;...[kpc] core radius of filament 
    - nc_fila=0.1*ncentre  ;...[part/cm^3] central density of filament
+   - write_disk=0,1 ;...enables the writing of a 4 x n0^3 binary dataset at the end of the run 
    
    
    Main outputs:
@@ -60,7 +61,7 @@ Compilation:
    
    CPU Time
    ========
-   On a Macbook Pro the basic run including the generation of a 3D magnetic field for a Beta-model only, needs a CPU time  that scales as T=13.5[s]*(Ngrid/128)^3.
+   On a Macbook Pro the basic run including the generation of a 3D magnetic field for a Beta-model (without filaments or clumps), requires a CPU time of T=12.1[s]*(n0/128)^3.
    
    The code is not particularly well optimized.
    
