@@ -2,11 +2,11 @@
 ===========
 
 MIRO code to model Faraday Rotation in simulated clusters/filaments
-
-;....basic IDL(v8.6.0) version of MIRO for simple simulations of Farday Rotation Measure 
-
+;....
 ;...derived from Bonafede, Vazza et al. 2013 MNRAS
 
+;....miro.pro -> basic IDL(v8.6.0) version of MIRO for simple simulations of Farday Rotation Measure 
+;....miro_gdl.pro -> GDL (v0.9.6) version of MIRO - slightly modified version to cope with missing IDL libraries
 
  Main features:
  ==============
@@ -19,12 +19,20 @@ MIRO code to model Faraday Rotation in simulated clusters/filaments
 
 Compilation:
 ============
+(IDL)
 .r needs
 
 .r needs
 
-.r createB_3d
+.r miro
 
+(GDL)
+
+.r needs_gdl
+
+.r needs_gdl
+
+.r miro_gdl
 
   Calling sequence:
   =================
@@ -61,7 +69,7 @@ Compilation:
    
    CPU Time
    ========
-   On a Macbook Pro the basic run including the generation of a 3D magnetic field for a Beta-model (without filaments or clumps), requires a CPU time of T=12.1[s]*(n0/128)^3.
+   On a Macbook Pro the basic run including the generation of a 3D magnetic field for a Beta-model (without filaments or clumps), requires a CPU time of T=12.1[s]*(n0/128)^3.  (IDL version)
    
    The code is not particularly well optimized.
    
