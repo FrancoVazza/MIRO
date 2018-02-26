@@ -7,7 +7,7 @@ pro miro,input,dir_out=dir_out,res=res,n0=n0,rc=rc,bmean=bmean,kin=kin,kmax=kmax
   CPU,TPOOL_NTHREADS=32
 
    if not IS_DEF(dir_out) then dir_out='.'   ;...folder for outputs
-   if not IS_DEF(res) then res=2 ;...cell resolution in kpc
+   if not IS_DEF(res) then res=10 ;...cell resolution in kpc
    if not IS_DEF(n0) then n0=128 ;..grid size
    if not IS_DEF(kin) then kin=3     ;...minimum k for the power-law [0:n0*0.5-1]
    if not IS_DEF(kmax) then  kmax=(n0*0.5)-1   ;...maximum k  (n0*0.5-1 is the Nyquist frequency)
