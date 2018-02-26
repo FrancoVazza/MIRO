@@ -43,7 +43,7 @@ Compilation:
   Adjustable parameters:
   ======================
   - dir_out=''   ;...folder for outputs
-  - res=2 ;...cell resolution in kpc
+  - res=10 ;...cell resolution in kpc
   - n0=128 ;..grid size
   - kin=3     ;...minimum k for the power-law [0:n0*0.5-1]
   - kmax=(n0*0.5)-1   ;...maximum k  (n0*0.5-1 is the Nyquist frequency)
