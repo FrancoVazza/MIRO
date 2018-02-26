@@ -1,11 +1,12 @@
 ===MIRO====
 ===========
 
-MIRO code to model Faraday Rotation in simulated clusters/filaments
+MIRO code to model Faraday Rotation in simulated clusters/filaments, both in IDL and GDL version
 ;....
 ;...derived from Bonafede, Vazza et al. 2013 MNRAS
 
 ;....miro.pro -> basic IDL(v8.6.0) version of MIRO for simple simulations of Farday Rotation Measure 
+
 ;....miro_gdl.pro -> GDL (v0.9.6) version of MIRO - slightly modified version to cope with missing IDL libraries
 
  Main features:
