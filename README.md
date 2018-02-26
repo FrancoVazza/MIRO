@@ -9,6 +9,8 @@ MIRO code to model Faraday Rotation in simulated clusters/filaments, both in IDL
 
 ;....miro_gdl.pro -> GDL (v0.9.6) version of MIRO - slightly modified version to cope with missing IDL libraries
 
+;...needs/needs_gdl.pro -> necessary auxiliary files for compilations and routines
+
  Main features:
  ==============
  - 3D magnetic fields with divB=0 and input power spectra, components drawn from the Rayleigh distribution, with adjustable input power spectrum (tunable spectral slope and max/min scales).
